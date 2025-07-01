@@ -112,7 +112,7 @@ src/
 ## 🧠 Author
 
 Built with ❤️ by [Mohamed Shamseldeen](https://www.linkedin.com/in/mohamed-shamseldeen)  
-Design & Frontend Architecture supported by Dino Div
+
 
 ---
 
