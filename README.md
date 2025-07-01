@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Create README content
-readme_content = """
 # 🛡️ Login Task - MeetusVR Auth Page
 
 This is a modern, responsive login interface built for a virtual shopping platform using **React 19**, **Redux Toolkit**, **GSAP animations**, and **TailwindCSS**. It provides a smooth and engaging authentication experience with real-time form validation and animated transitions.
@@ -76,3 +72,49 @@ npm install
 
 # 3. Run dev server
 npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/                  # Project images, logos, visuals
+├── components/
+│   ├── ui/                  # Reusable UI components (Sidebar, Nav, Switcher, etc.)
+│   └── layout/              # Layout wrapper
+├── hooks/
+│   └── use-mobile.js        # Custom hook for mobile responsiveness
+├── lib/
+│   └── utils.js             # Helper functions
+├── pages/
+│   ├── Auth/                # Login form component
+│   ├── Dashboard/           # Dashboard view after login
+│   ├── LoginPage/           # Full login page layout with animation
+│   └── Profile/             # User profile placeholder
+├── Routes/                  # App routes
+├── services/                # API services
+├── Store/
+│   ├── api/                 # API call logic (e.g., signIn)
+│   ├── endpoints.js         # All endpoint URLs
+│   ├── rootReducer.js       # Combined reducers
+│   └── store.js             # Redux store setup
+├── utils/                   # Shared logic & constants
+│   └── index.js
+├── App.jsx                  # App root
+├── main.jsx                 # Vite entry point
+├── index.css                # Global styles
+```
+
+---
+
+## 🧠 Author
+
+Built with ❤️ by [Mohamed Shamseldeen](https://www.linkedin.com/in/mohamed-shamseldeen)  
+Design & Frontend Architecture supported by Dino Div
+
+---
+
+Feel free to fork, reuse or get inspired 👇  
+PRs & ⭐️ welcome!
