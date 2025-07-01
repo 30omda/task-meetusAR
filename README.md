@@ -4,6 +4,13 @@ This is a modern, responsive login interface built for a virtual shopping platfo
 
 ---
 
+
+## 🔗 Live Demo
+
+You can check the deployed version of the task here:  
+👉 [https://task-meetus-ar-y5vv.vercel.app/](https://task-meetus-ar-y5vv.vercel.app/)
+
+
 ## 🚀 Features
 
 - ✅ **Login with email & password**
