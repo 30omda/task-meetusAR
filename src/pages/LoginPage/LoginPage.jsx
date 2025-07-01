@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
-import LoginForm from "../Auth/Loginform";
+import LoginForm from "@/pages/Auth/LoginForm";
 import mainLogo from "@/assets/images/mainLogo.png";
 import meetus from "@/assets/images/meetus.png";
 
